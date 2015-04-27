@@ -1,0 +1,185 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/findline"
+    >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal" 
+        android:background="@drawable/register_title_bar"
+        >
+        <ImageView
+            android:id="@+id/headpicture"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/wangchengcheng" />
+
+        <TextView
+            android:id="@+id/Nickname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="王城程"
+            android:textSize="25sp"
+            android:textStyle="italic" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/mine"
+            android:layout_width="80dp"
+            android:layout_height="35dp"
+            android:background="@drawable/anniu4"
+            android:text="@string/mineblogs" />
+        <Button
+            android:id="@+id/collect"
+            android:layout_width="80dp"
+            android:layout_height="35dp"
+            android:background="@drawable/anniu5"
+            android:text="@string/theirblogs" />
+        <Button
+            android:id="@+id/friends"
+            android:layout_width="80dp"
+            android:layout_height="35dp"
+            android:background="@drawable/anniu5"
+            android:text="@string/Friends" />
+        <Button
+            android:id="@+id/message"
+            android:layout_width="80dp"
+            android:layout_height="35dp"
+            android:background="@drawable/anniu5"
+            android:text="@string/Message" />
+    </LinearLayout>
+	<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/blogbtn"
+            android:layout_width="160dp"
+            android:layout_height="35dp"
+            android:background="@drawable/selector_send_bg1"
+            android:text="@string/Blog" />
+        <Button
+            android:id="@+id/teambtn"
+            android:layout_width="160dp"
+            android:layout_height="35dp"
+            android:background="@drawable/selector_send_bg"
+            android:text="@string/Team" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/History"
+        android:layout_width="fill_parent"
+        android:layout_height="130dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/search_historyTop"
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:text="@string/wochuangjiandeduiwu" 
+            android:background="@drawable/selector_send_bg"
+            />
+
+        <ListView
+            android:id="@+id/list31"
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:drawSelectorOnTop="false" 
+            android:background="#ffffff"
+            >
+        </ListView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Hot"
+        android:layout_width="fill_parent"
+        android:layout_height="130dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/search_hotTop"
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:background="@drawable/selector_send_bg"
+            android:text="@string/wojiarudeduiwu" />
+
+        <ListView
+            android:id="@+id/list32"
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:drawSelectorOnTop="false" 
+            android:background="#ffffff"
+            >
+        </ListView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="33dp"
+        android:orientation="horizontal"
+        android:background="@drawable/register_title_bar"
+        >
+        
+    	<ImageView
+    	    android:id="@+id/imagebtnone"
+    	    android:layout_width="30dp"
+    	    android:layout_height="30dp"
+    	    android:layout_marginLeft="180dp"
+    	    android:src="@drawable/createteampicture" />
+    	<TextView 
+    	    android:id="@+id/Chuangjian"
+    	    android:layout_width="90dp"
+    	    android:layout_height="25dp"
+    	    android:layout_marginLeft="5dp"
+    	    android:textSize="20sp"
+    	    android:text="@string/chuangjianduiwu"
+    	    android:background="@drawable/anniu4" 
+    	    android:layout_marginTop="5dp"/>"
+	</LinearLayout>
+	
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/mainpage"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/anniu5"
+            android:text="@string/Mainpage" />
+
+        <Button
+            android:id="@+id/searchmainpage"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/anniu5"
+            android:text="@string/Searchmainpage" />
+
+        <Button
+            android:id="@+id/sharemainpage"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/anniu5"
+            android:text="@string/Sharemainpage" />
+
+        <Button
+            android:id="@+id/personalmainpage"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/anniu4"
+            android:text="@string/Personalmainpage" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#10A0DC"
+    android:orientation="horizontal" >
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="最新动态"
+        android:textSize="19dp"
+        android:textColor="#FFFFFF" />
+
+     <ImageButton
+         android:id="@+id/main_button"
+         android:layout_centerVertical="true"
+         android:layout_width="28dp"
+         android:layout_height="28dp"
+         android:layout_alignParentRight="true"
+         android:layout_marginRight="5dp"
+         android:background="@android:color/transparent"
+         android:src="@drawable/right2" />
+
+</RelativeLayout>

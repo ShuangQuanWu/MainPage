@@ -1,0 +1,92 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/findline"
+    >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal" 
+        android:background="@drawable/register_title_bar"
+        >
+
+        <ImageView
+            android:id="@+id/headpicture"
+            android:layout_width="58dp"
+            android:layout_height="58dp"
+            android:src="@drawable/shikeji" />
+
+        <TextView
+            android:id="@+id/Nickname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="施克济"
+            android:textSize="25sp"
+            android:textStyle="italic" />
+        <ImageView
+            android:id="@+id/addfriend"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="18dp"
+            android:src="@drawable/find_more_friend_addfriend_icon"
+            />
+        <ImageView
+            android:id="@+id/delete"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="18dp"
+            android:src="@drawable/delete1"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/blogbtn"
+            android:layout_width="160dp"
+            android:layout_height="40dp"
+            android:background="@drawable/selector_send_bg"
+            android:text="@string/Blog" />
+        <Button
+            android:id="@+id/teambtn"
+            android:layout_width="160dp"
+            android:layout_height="40dp"
+            android:background="@drawable/selector_send_bg1"
+            android:text="@string/Team" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Hot"
+        android:layout_width="fill_parent"
+        android:layout_height="315dp"
+        android:orientation="vertical" >
+
+        <ListView
+            android:id="@+id/list02"
+            android:layout_width="fill_parent"
+            android:layout_height="324dp"
+            android:drawSelectorOnTop="false" 
+            android:background="#ffffff"
+            >
+        </ListView>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/Back08"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/back" 
+        android:background="@drawable/selector_send_bg"
+        />
+
+</LinearLayout>

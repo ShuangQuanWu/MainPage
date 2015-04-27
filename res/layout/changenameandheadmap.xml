@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/findline"
+    >
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:text="@string/genghuantouxianghenichen"
+        android:textColor="#000000"
+        android:textSize="25sp" 
+        android:background="@drawable/register_title_bar"
+        />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="250dp"
+        android:orientation="vertical"
+        >
+
+        <ImageButton
+            android:id="@+id/imagebtn01"
+            android:layout_width="120dp"
+            android:layout_height="120dp" 
+            android:layout_marginLeft="90dp"
+            android:background="#ffffff"
+            />
+        <Button 
+            android:id="@+id/choose"
+            android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_marginLeft="110dp"
+        	android:text="更改"
+        	android:background="@drawable/anniu4"
+            />
+
+        <EditText
+            android:id="@+id/edit01"
+            android:layout_width="300dp"
+            android:layout_height="47dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/bank_bgicon"
+            android:ems="10" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="112dp"
+        android:orientation="horizontal" 
+        >
+
+        <Button
+            android:id="@+id/btn01"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_send_bg"
+            android:text="@string/queding"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn02"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/quxiao"
+            android:textSize="20sp" 
+            android:background="@drawable/selector_send_bg"
+            />
+    </LinearLayout>
+
+</LinearLayout>

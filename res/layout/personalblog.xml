@@ -1,0 +1,188 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/findline"
+    >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal" 
+        android:background="@drawable/register_title_bar"
+        >
+
+        <ImageView
+            android:id="@+id/headpicture"
+            android:layout_width="58dp"
+            android:layout_height="58dp"
+            android:src="@drawable/wangchengcheng" />
+
+        <TextView
+            android:id="@+id/Nickname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="王城程"
+            android:textSize="25sp"
+            android:textStyle="italic" />
+        <ImageView
+            android:id="@+id/delete"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="18dp"
+            android:src="@drawable/delete1"
+            />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="160dp"
+        android:layout_weight="289.80"
+        android:orientation="vertical"
+        android:background="#ffffff"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="杭州"
+            android:layout_marginLeft="120dp"
+            android:textSize="30sp"
+            />
+        <LinearLayout
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal"
+        	>
+        	<TextView
+            	android:layout_width="200dp"
+            	android:layout_height="100dp"
+            	android:layout_marginLeft="10dp"
+            	android:text="		西湖西湖西湖西湖西湖西湖西湖西湖西湖西湖"
+            	android:textSize="25sp"
+            	android:textStyle="italic" 
+            />
+        	<ImageView 
+        		android:layout_width="105dp"
+            	android:layout_height="100dp"
+            	android:src="@drawable/xihu"
+        		/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="305dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="10dp"
+            android:text="西湖西湖西湖西湖西湖西湖西湖西湖西湖西湖西湖西湖西湖西湖西湖西湖西湖西湖"
+            android:textSize="25sp"
+            android:textStyle="italic" >
+</TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:background="#10A0DC"
+        >
+
+    	<LinearLayout
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="40dp"
+    	    android:layout_marginLeft="15dp"
+    	    android:orientation="horizontal" >
+
+        	<ImageView
+            	android:id="@+id/pinglun"
+            	android:layout_width="30dp"
+            	android:layout_height="30dp"
+            	android:src="@drawable/pinglun" 
+            	android:layout_marginTop="2dp"/>
+        	<TextView 
+        	    android:id="@+id/pinglunt"
+            	android:layout_width="40dp"
+            	android:layout_height="30dp"
+            	android:layout_marginTop="7dp"
+            	android:textSize="15dp"
+            	android:text="@string/Pinglun"
+            	/>
+    	</LinearLayout>
+    	
+    	<LinearLayout
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="40dp"
+    	    android:layout_marginLeft="5dp"
+    	    android:orientation="horizontal" >
+
+        	<ImageView
+            	android:id="@+id/dianzan"
+            	android:layout_width="30dp"
+            	android:layout_height="30dp"
+            	android:src="@drawable/dianzan4" 
+            	android:layout_marginTop="2dp"/>
+        	<TextView 
+        	    android:id="@+id/dianzant"
+            	android:layout_width="40dp"
+            	android:layout_height="30dp"
+            	android:layout_marginTop="7dp"
+            	android:textSize="15dp"
+            	android:text="@string/Dianzan"
+            	/>
+    	</LinearLayout>
+    	
+    	<LinearLayout
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="40dp"
+    	    android:layout_marginLeft="5dp"
+    	    android:orientation="horizontal" >
+
+        	<ImageView
+            	android:id="@+id/collectI"
+            	android:layout_width="30dp"
+            	android:layout_height="30dp"
+            	android:src="@drawable/shoucang" />
+        	<TextView 
+        	    android:id="@+id/collcett"
+            	android:layout_width="40dp"
+            	android:layout_height="30dp"
+            	android:layout_marginTop="7dp"
+            	android:textSize="15dp"
+            	android:text="@string/Shoucang"
+            	/>
+    	</LinearLayout>
+    	
+    	<LinearLayout
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="40dp"
+    	    android:layout_marginLeft="5dp"
+    	    android:orientation="horizontal" >
+
+        	<ImageView
+            	android:id="@+id/xiangguan"
+            	android:layout_width="30dp"
+            	android:layout_height="30dp"
+            	android:src="@drawable/xiangguan1" 
+            	android:layout_marginTop="2dp"/>
+        	<TextView 
+        	    android:id="@+id/xiangguant"
+            	android:layout_width="40dp"
+            	android:layout_height="30dp"
+            	android:layout_marginTop="7dp"
+            	android:textSize="15dp"
+            	android:text="@string/Xiangguan"
+            	/>
+    	</LinearLayout>
+    	
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/Back06"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/back" 
+        android:background="@drawable/selector_send_bg"
+        />
+
+</LinearLayout>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.weixing"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.weixing.MainPageActivity"
+            android:label="@string/app_name" >
+            
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.weixing.ChangeNameAndHeadmapActivity"
+            android:label="@string/changenameandheadmap"></activity>
+        <activity
+            android:name="com.example.weixing.MainPagetwoActivity"
+            android:label="@string/mainpagetwo"></activity>
+        
+        <activity
+            android:name="com.example.personalmainpage.PersonalmainpageActivity"
+            android:label="@string/personalmainpage"></activity>
+        <activity
+            android:name="com.example.personalmainpage.ChangeNameAndHeadmapActivitytwo"
+            android:label="@string/changenameandheadmap"></activity>
+        <activity
+            android:name="com.example.personalmainpage.CollectActivity"
+            android:label="@string/collect"></activity>
+        <activity
+            android:name="com.example.personalmainpage.FriendsActivity"
+            android:label="@string/friends"></activity>
+        <activity
+            android:name="com.example.personalmainpage.MessageActivity"
+            android:label="@string/message"></activity>
+        <activity
+            android:name="com.example.personalmainpage.PersonalblogActivity"
+            android:label="@string/personalblog"></activity>
+        <activity
+            android:name="com.example.personalmainpage.CollectblogActivity"
+            android:label="@string/collectblog"></activity>
+        <activity
+            android:name="com.example.personalmainpage.FriendblogandteamActivity"
+            android:label="@string/friendblogandteam"></activity>
+        <activity
+            android:name="com.example.personalmainpage.FriendblogandteamtwoActivity"
+            android:label="@string/friendblogandteamtwo"></activity>
+        <activity
+            android:name="com.example.personalmainpage.FriendblogActivity"
+            android:label="@string/friendblog"></activity>
+        <activity
+            android:name="com.example.personalmainpage.PinglunActivity"></activity>
+        
+        <activity
+            android:name="com.example.searchmainpage.SearchmainpageActivity"
+            android:label="@string/searchmainpage"></activity>
+        <activity
+            android:name="com.example.searchmainpage.SearchnamepageActivity"
+            android:label="@string/searchnamepage"></activity>
+        <activity
+            android:name="com.example.searchmainpage.SpotActivity"
+            android:label="@string/spot"></activity>
+        <activity
+            android:name="com.example.searchmainpage.RelationTeamActivity"
+            android:label="@string/relationteam"></activity>
+        <activity
+            android:name="com.example.searchmainpage.RelationShareActivity"></activity>
+        <activity
+            android:name="com.example.searchmainpage.NearActivity"
+            android:label="@string/near"></activity>
+        <activity
+            android:name="com.example.searchmainpage.ShoppingActivity"
+            android:label="@string/shopping"></activity>
+        <activity
+            android:name="com.example.searchmainpage.EatingActivity"
+            android:label="@string/eating"></activity>
+        <activity
+            android:name="com.example.searchmainpage.HotelActivity"
+            android:label="@string/hotel"></activity>
+        <activity
+            android:name="com.example.searchmainpage.HappyActivity"
+            android:label="@string/happy"></activity>
+        <activity
+            android:name="com.example.searchmainpage.NameActivity"
+            android:label="@string/name"></activity>
+
+        <activity
+            android:name="com.example.sharemainpage.SharemainpageActivity"
+            android:label="@string/sharemainpage"></activity>
+        <activity
+            android:name="com.example.sharemainpage.AddpicActivity"></activity>
+        <activity
+            android:name="com.example.sharemainpage.AddspotActivity"></activity>
+        
+        <activity 
+            android:name="com.example.teammainpage.TeammainpageActivity"
+            android:label="@string/teammainpage"></activity>"
+        <activity 
+            android:name="com.example.teammainpage.CreateTeamActivity"
+            android:label="@string/createteam"></activity>"
+        <activity 
+            android:name="com.example.teammainpage.AddmemberActivity"
+            android:label="@string/addmember"></activity>"
+        <activity 
+            android:name="com.example.teammainpage.IamcreaterActivity"
+            android:label="@string/iamcreater"></activity>"
+        <activity 
+            android:name="com.example.teammainpage.IamnotcreaterActivity"
+            android:label="@string/iamnotcreater"></activity>"
+        <activity 
+            android:name="com.example.teammainpage.IwascreaterActivity"
+            android:label="@string/iwascreater"></activity>"
+        <activity 
+            android:name="com.example.teammainpage.IwasnotcreaterActivity"
+            android:label="@string/iwasnotcreater"></activity>"
+        <activity 
+            android:name="com.example.teammainpage.CheckmemberActivity"
+            android:label="@string/checkmember"></activity>"
+            
+    </application>
+
+</manifest>

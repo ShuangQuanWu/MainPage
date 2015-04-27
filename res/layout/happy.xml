@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/findline"
+    >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/register_title_bar"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:text="@string/stores"
+            android:textSize="25dp" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/didian"
+            android:textSize="25dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="382dp"
+        android:orientation="vertical" >
+
+        <ListView
+            android:id="@+id/list18"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:drawSelectorOnTop="false" 
+            android:background="#ffffff"
+            >
+        </ListView>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/Back06"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/back" 
+        android:background="@drawable/selector_send_bg"
+        />
+
+</LinearLayout>

@@ -1,0 +1,327 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/findline"
+    >
+	
+	<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:orientation="horizontal"
+        >
+       
+	    <TextView 
+	        android:layout_width="100dp"
+	        android:layout_height="35dp"
+	        android:layout_marginLeft="15dp"
+	        android:text="队伍名称："
+	        android:textSize="15sp"
+	        />
+	    
+	    <TextView 
+	        android:layout_width="190dp"
+	        android:layout_height="35dp"
+	        android:layout_marginLeft="5dp"
+	        android:text="日本富士山，有妹子呦！"
+	        android:textSize="15sp"
+	        android:background="@drawable/bank_bgicon"
+	        />
+	    
+    </LinearLayout>
+    
+	<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:orientation="horizontal"
+        >
+       
+	    <TextView 
+	        android:layout_width="100dp"
+	        android:layout_height="35dp"
+	        android:layout_marginLeft="15dp"
+	        android:text="地点："
+	        android:textSize="15sp"
+	        />
+	    
+	    <TextView 
+	        android:layout_width="190dp"
+	        android:layout_height="35dp"
+	        android:layout_marginLeft="5dp"
+	        android:text="日本"
+	        android:textSize="20sp"
+	        android:background="@drawable/bank_bgicon"
+	        />
+	    
+    </LinearLayout>
+    
+	<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:orientation="horizontal"
+        >
+       
+	    <TextView 
+	        android:layout_width="100dp"
+	        android:layout_height="35dp"
+	        android:layout_marginLeft="15dp"
+	        android:text="人数："
+	        android:textSize="15sp"
+	        />
+	    
+	    <TextView 
+	        android:layout_width="40dp"
+	        android:layout_height="35dp"
+	        android:layout_marginLeft="5dp"
+	        android:text="3"
+	        android:textSize="20sp"
+	        android:background="@drawable/bank_bgicon"
+	        />
+	    
+	    <TextView 
+	        android:layout_width="20dp"
+	        android:layout_height="35dp"
+	        android:layout_marginLeft="5dp"
+	        android:text="人："
+	        android:textSize="15sp"
+	        />
+	    
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:orientation="horizontal"
+        >
+       
+	    <TextView 
+	        android:layout_width="100dp"
+	        android:layout_height="35dp"
+	        android:layout_marginLeft="15dp"
+	        android:text="组长："
+	        android:textSize="15sp"
+	        />
+	    
+	    <TextView 
+	        android:layout_width="80dp"
+	        android:layout_height="35dp"
+	        android:layout_marginLeft="5dp"
+	        android:text="施克济"
+	        android:textSize="20sp"
+	        android:background="@drawable/bank_bgicon"
+	        /> 
+    </LinearLayout>
+    
+	<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:orientation="horizontal"
+        >
+       
+	    <TextView 
+	        android:layout_width="100dp"
+	        android:layout_height="35dp"
+	        android:layout_marginLeft="15dp"
+	        android:text="联系方式："
+	        android:textSize="15sp"
+	        />
+	    
+	    <TextView 
+	        android:layout_width="190dp"
+	        android:layout_height="35dp"
+	        android:layout_marginLeft="5dp"
+	        android:text="QQ:736370393"
+	        android:textSize="20sp"
+	        android:background="@drawable/bank_bgicon"
+	        />
+	    
+    </LinearLayout>
+    
+	<Button 
+	    android:id="@+id/checkmember"
+	    android:layout_width="200dp"
+	    android:layout_height="35dp"
+	    android:layout_marginLeft="55dp"
+	    android:layout_marginTop="1dp"
+	    android:background="@drawable/selector_send_bg"
+	    android:text="查看成员"/>
+	
+	<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:orientation="horizontal"
+        >
+       
+	    <TextView 
+	        android:layout_width="80dp"
+	        android:layout_height="35dp"
+	        android:layout_marginLeft="15dp"
+	        android:text="出发时间："
+	        android:textSize="15sp"
+	        />
+	    
+	    <TextView 
+	        android:layout_width="70dp"
+	        android:layout_height="40dp"
+	        android:layout_marginLeft="5dp"
+	        android:text="2015"
+	        android:textSize="20sp"
+	        android:background="@drawable/bank_bgicon"
+	        />
+	    
+	    <TextView 
+	        android:layout_width="15dp"
+	        android:layout_height="40dp"
+	        android:text="年"
+	        android:textSize="15sp"
+	        />
+	    
+	    <TextView 
+	        android:layout_width="50dp"
+	        android:layout_height="40dp"
+	        android:text="11"
+	        android:textSize="20sp"
+	        android:background="@drawable/bank_bgicon"
+	        />
+	    
+	    <TextView 
+	        android:layout_width="15dp"
+	        android:layout_height="40dp"
+	        android:text="月"
+	        android:textSize="15sp"
+	        />
+	    
+	    <TextView 
+	        android:layout_width="50dp"
+	        android:layout_height="40dp"
+	        android:text="1"
+	        android:textSize="20sp"
+	        android:background="@drawable/bank_bgicon"
+	        />
+	    
+	    <TextView 
+	        android:layout_width="15dp"
+	        android:layout_height="40dp"
+	        android:text="日"
+	        android:textSize="15sp"
+	        />
+	    
+    </LinearLayout>
+    
+	<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:orientation="horizontal"
+        >
+       
+	    <TextView 
+	        android:layout_width="80dp"
+	        android:layout_height="35dp"
+	        android:layout_marginLeft="15dp"
+	        android:text="截止时间："
+	        android:textSize="15sp"
+	        />
+	    
+	    <TextView 
+	        android:layout_width="70dp"
+	        android:layout_height="40dp"
+	        android:layout_marginLeft="5dp"
+	        android:text="2015"
+	        android:textSize="20sp"
+	        android:background="@drawable/bank_bgicon"
+	        />
+	    
+	    <TextView 
+	        android:layout_width="15dp"
+	        android:layout_height="40dp"
+	        android:text="年"
+	        android:textSize="15sp"
+	        />
+	    
+	    <TextView 
+	        android:layout_width="50dp"
+	        android:layout_height="40dp"
+	        android:text="11"
+	        android:textSize="20sp"
+	        android:background="@drawable/bank_bgicon"
+	        />
+	    
+	    <TextView 
+	        android:layout_width="15dp"
+	        android:layout_height="40dp"
+	        android:text="月"
+	        android:textSize="15sp"
+	        />
+	    
+	    <TextView 
+	        android:layout_width="50dp"
+	        android:layout_height="40dp"
+	        android:text="7"
+	        android:textSize="20sp"
+	        android:background="@drawable/bank_bgicon"
+	        />
+	    
+	    <TextView 
+	        android:layout_width="15dp"
+	        android:layout_height="40dp"
+	        android:text="日"
+	        android:textSize="15sp"
+	        />
+	    
+    </LinearLayout>
+    
+	<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="1dp"
+        android:orientation="vertical"
+        >
+       
+	    <TextView 
+	        android:layout_width="100dp"
+	        android:layout_height="30dp"
+	        android:layout_marginLeft="15dp"
+	        android:text="附加消息："
+	        android:textSize="15sp"
+	        />
+
+	    <TextView
+	        android:layout_width="fill_parent"
+	        android:layout_height="40dp"
+	        android:text="终于能见到传说中的日本妹子啦！"
+	        android:textSize="15sp" 
+	        android:background="@drawable/bank_bgicon"/>
+	    
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        >
+    	<Button
+        	android:id="@+id/yaoqing"
+        	android:layout_width="60dp"
+        	android:layout_height="wrap_content"
+        	android:layout_marginLeft="122dp"
+        	android:layout_marginTop="1dp"
+        	android:background="@drawable/anniu4"
+        	android:text="邀请" />
+
+    </LinearLayout>
+    
+	<Button
+        android:id="@+id/Back15"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/back" 
+        android:background="@drawable/selector_send_bg"
+        />
+
+</LinearLayout>

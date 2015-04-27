@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/findline"
+    >
+
+    <RelativeLayout
+        android:id="@+id/Top"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+         <Button
+            android:id="@+id/addtitlebtn"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:text="添加标题" 
+            android:background="@drawable/register_title_bar"
+            />
+         <ImageView 
+            android:id="@+id/addtitleimg"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/right123"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btntwo"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="10dp"
+            android:layout_centerInParent="true"
+            android:text="@string/inputimage" 
+            android:background="@drawable/anniu4"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="271dp"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/editone"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:ems="20" 
+            android:background="@drawable/bank_bgicon"
+            android:lines="10"
+            android:scrollHorizontally="true"
+            >
+            <requestFocus />
+        </EditText>
+
+        <Button
+            android:id="@+id/btnone"
+            android:layout_width="79dp"
+            android:layout_height="wrap_content"
+            android:text="@string/shangchuan" 
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/anniu4"
+            />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/mainpage"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/anniu5"
+            android:text="@string/Mainpage" />
+
+        <Button
+            android:id="@+id/searchmainpage"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/anniu5"
+            android:text="@string/Searchmainpage" />
+
+        <Button
+            android:id="@+id/sharemainpage"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/anniu4"
+            android:text="@string/Sharemainpage" />
+
+        <Button
+            android:id="@+id/personalmainpage"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/anniu5"
+            android:text="@string/Personalmainpage" />
+
+    </LinearLayout>
+
+</LinearLayout>

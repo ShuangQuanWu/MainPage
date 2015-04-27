@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/findline"
+    >
+
+    <LinearLayout
+        android:id="@+id/Top"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/gendergroup"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#aaaaaa"
+            android:orientation="horizontal"
+            >
+
+            <Button
+                android:id="@+id/search_spot"
+                android:layout_width="160dp"
+                android:layout_height="40dp"
+                android:background="@drawable/selector_send_bg"
+                android:gravity="center"
+                android:text="@string/Spot" />
+
+            <Button
+            android:id="@+id/search_name"
+            android:layout_width="160dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="@string/nickname"
+            android:background="@drawable/selector_send_bg1"
+            />
+        </LinearLayout>
+
+       	<SearchView
+        	android:id="@+id/search_view"
+        	android:layout_width="fill_parent"
+        	android:layout_height="45dp"
+        	android:background="@drawable/bank_bgicon"
+        	android:imeOptions="actionGo" />
+
+       	<Button
+       	    android:id="@+id/search_to"
+        	android:layout_width="40dp"
+        	android:layout_height="40dp"
+        	android:gravity="center"
+        	android:layout_marginLeft="275dp"
+        	android:background="@drawable/fangdajing" 
+        	/>
+    </LinearLayout>
+
+     <LinearLayout
+         android:id="@+id/History"
+         android:layout_width="fill_parent"
+         android:layout_height="145dp"
+         android:orientation="vertical" >
+
+        	<Button
+        	    android:id="@+id/search_historyTop"
+        	    android:layout_width="fill_parent"
+        	    android:layout_height="30dp"
+        	    android:layout_gravity="left"
+        	    android:text="@string/historysearch" 
+        	    android:background="@drawable/selector_send_bg"
+        	    />
+
+        	<ListView
+        	    android:id="@+id/list24"
+        	    android:layout_width="fill_parent"
+        	    android:layout_height="115dp"
+        	    android:drawSelectorOnTop="false" 
+        	    android:divider="@drawable/longline"
+        	    android:background="#ffffff"
+        	    >
+			</ListView>
+        </LinearLayout>
+   
+        <LinearLayout
+        android:id="@+id/Hot"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="145dp"
+        >
+
+        	<Button
+        	    android:id="@+id/search_hotTop"
+        	    android:layout_width="fill_parent"
+        	    android:layout_height="30dp"
+        	    android:layout_gravity="left"
+        	    android:text="@string/hotsearch" 
+        	    android:background="@drawable/selector_send_bg"
+        	    />
+
+        	<ListView 
+        	    android:id="@+id/list25"
+        	    android:layout_width="fill_parent"
+        	    android:layout_height="115dp"
+        	    android:drawSelectorOnTop="false"
+        	    android:divider="@drawable/longline"
+        	    android:background="#ffffff"
+        	    >
+        	</ListView>
+        </LinearLayout>
+        <LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:orientation="horizontal" >
+
+       		<Button
+       		android:id="@+id/mainpage"
+        	android:layout_width="80dp"
+		    android:layout_height="wrap_content"
+		    android:background="@drawable/anniu5"
+        	android:text="@string/Mainpage" 
+        	/>	
+        	<Button
+       		android:id="@+id/searchmainpage"
+        	android:layout_width="80dp"
+		    android:layout_height="wrap_content"
+		    android:background="@drawable/anniu4"
+        	android:text="@string/Searchmainpage"
+        	/>
+        	<Button
+	        android:id="@+id/sharemainpage"
+	        android:layout_width="80dp"
+		    android:layout_height="wrap_content"
+		    android:background="@drawable/anniu5"
+	        android:text="@string/Sharemainpage" />
+
+	    	<Button
+	        android:id="@+id/personalmainpage"
+	        android:layout_width="80dp"
+		    android:layout_height="wrap_content"
+		    android:background="@drawable/anniu5"
+	        android:text="@string/Personalmainpage" />
+
+        </LinearLayout>
+        
+</LinearLayout>

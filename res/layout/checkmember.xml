@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/findline"
+    >
+        
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/register_title_bar"
+            android:text="成员列表:"
+            android:textSize="25sp" />
+        
+        <ListView
+            android:id="@+id/list30"
+            android:layout_width="fill_parent"
+            android:layout_height="324dp"
+            android:drawSelectorOnTop="false" 
+            android:background="#ffffff"
+            >
+		</ListView>
+        
+        <Button 
+            android:id="@+id/checkmemberbtn"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="200dp"
+            android:text="@string/queding"
+            android:background="@drawable/anniu4"
+            android:layout_marginTop="5dp"
+            />
+        
+        <Button
+        	android:id="@+id/Back14"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:text="@string/back" 
+        	android:background="@drawable/selector_send_bg"
+        	/>
+        
+</LinearLayout>

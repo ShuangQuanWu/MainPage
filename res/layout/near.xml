@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/findline"
+    >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:background="#ffffff"
+        >
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="60dp"
+            android:src="@drawable/listpicture" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="65dp"
+            android:background="@drawable/register_title_bar"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/bianmin"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="20dp"
+                android:text="@string/fuwu"
+                android:textSize="20dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="52dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal" >
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/shopping" 
+            android:layout_marginLeft="60dp"
+            />
+        <Button
+            android:id="@+id/btn05"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="@string/Shopping" 
+            android:background="@drawable/anniu6"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/eating" 
+            android:layout_marginLeft="60dp"
+            />
+        <Button
+            android:id="@+id/btn06"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="@string/Eating" 
+            android:background="@drawable/anniu6"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/hotel" 
+            android:layout_marginLeft="60dp"
+            />
+        <Button
+            android:id="@+id/btn07"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="@string/Hotel" 
+            android:background="@drawable/anniu6"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/happy" 
+            android:layout_marginLeft="60dp"
+            />
+        <Button
+            android:id="@+id/btn08"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="@string/Happy" 
+            android:background="@drawable/anniu6"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/Back02"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/back" 
+        android:layout_marginTop="64dp"
+        android:background="@drawable/selector_send_bg"
+        />
+
+</LinearLayout>

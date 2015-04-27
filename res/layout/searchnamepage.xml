@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/findline"
+    >
+
+    <LinearLayout
+        android:id="@+id/Top"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/gendergroup"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#aaaaaa"
+            android:orientation="horizontal"
+            >
+
+            <Button
+                android:id="@+id/search_spot"
+                android:layout_width="160dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:text="@string/Spot" 
+                android:background="@drawable/selector_send_bg1"
+                />
+
+            <Button
+            	android:id="@+id/search_name"
+            	android:layout_width="160dp"
+            	android:layout_height="40dp"
+            	android:gravity="center"
+            	android:text="@string/nickname"
+            	android:background="@drawable/selector_send_bg"
+            	/>
+        </LinearLayout>
+
+       	<SearchView
+        	android:id="@+id/search_view"
+        	android:layout_width="fill_parent"
+        	android:layout_height="45dp"
+        	android:background="@drawable/bank_bgicon"
+        	android:imeOptions="actionGo" />
+
+       	<Button
+       	    android:id="@+id/searchtbtn"
+        	android:layout_width="40dp"
+        	android:layout_height="40dp"
+        	android:gravity="center"
+        	android:layout_marginLeft="275dp"
+        	android:background="@drawable/fangdajing"
+        	/>
+    </LinearLayout>
+        <LinearLayout
+        	android:orientation="vertical"
+        	android:layout_width="fill_parent"
+        	android:layout_height="287dp"
+            >
+        	<Button
+        	    android:layout_width="fill_parent"
+        	    android:layout_height="30dp"
+        	    android:layout_gravity="left"
+        	    android:text="附近组队" 
+        	    android:background="@drawable/selector_send_bg"
+        	    />
+        	<ListView 
+        	    android:id="@+id/neartlist"
+        	    android:layout_width="fill_parent"
+        	    android:layout_height="257dp"
+        	    android:drawSelectorOnTop="false"
+        	    android:background="#ffffff"
+        	    >
+        	</ListView>
+        </LinearLayout>
+        <LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:orientation="horizontal" >
+
+       		<Button
+       		android:id="@+id/mainpage"
+        	android:layout_width="80dp"
+		    android:layout_height="wrap_content"
+		    android:background="@drawable/anniu5"
+        	android:text="@string/Mainpage" 
+        	/>	
+        	<Button
+       		android:id="@+id/searchmainpage"
+        	android:layout_width="80dp"
+		    android:layout_height="wrap_content"
+		    android:background="@drawable/anniu4"
+        	android:text="@string/Searchmainpage"
+        	/>
+        	<Button
+	        android:id="@+id/sharemainpage"
+	        android:layout_width="80dp"
+		    android:layout_height="wrap_content"
+		    android:background="@drawable/anniu5"
+	        android:text="@string/Sharemainpage" />
+
+	    	<Button
+	        android:id="@+id/personalmainpage"
+	        android:layout_width="80dp"
+		    android:layout_height="wrap_content"
+		    android:background="@drawable/anniu5"
+	        android:text="@string/Personalmainpage" />
+
+        </LinearLayout>
+        
+</LinearLayout>
