@@ -32,24 +32,15 @@
 
     <RelativeLayout
         android:layout_width="fill_parent"
-        android:layout_height="150dp"
+        android:layout_height="100dp"
         android:orientation="vertical" >
-         
-        <ImageButton
-            android:id="@+id/imagebtn10"
-            android:layout_width="100dp"
-            android:layout_height="100dp" 
-            android:layout_marginLeft="105dp"
-            android:layout_marginTop="5dp"
-            android:background="#ffffff"
-            />
+
         <Button
             android:id="@+id/btntwo"
             android:layout_width="80dp"
-            android:layout_height="40dp"
-            android:layout_marginTop="3dp"
-            android:layout_marginLeft="113dp"
-            android:layout_below="@id/imagebtn10"
+            android:layout_height="80dp"
+            android:layout_marginTop="10dp"
+            android:layout_centerInParent="true"
             android:text="@string/inputimage" 
             android:background="@drawable/anniu4"
             />
@@ -57,7 +48,7 @@
 
     <RelativeLayout
         android:layout_width="fill_parent"
-        android:layout_height="230dp"
+        android:layout_height="271dp"
         android:orientation="vertical" >
 
         <EditText
@@ -85,7 +76,7 @@
 
     <LinearLayout
         android:layout_width="fill_parent"
-        android:layout_height="40dp"
+        android:layout_height="50dp"
         android:orientation="horizontal" >
 
         <Button
