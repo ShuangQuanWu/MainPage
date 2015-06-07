@@ -45,28 +45,27 @@ public class PersonalblogActivity extends Activity{
 		pinglun.setOnClickListener(new pinglunListener());
 		
 		pinglunt = (TextView)findViewById(R.id.pinglunt);
-		pinglunt.setOnClickListener(new pingluntListener());
+		pinglunt.setOnClickListener(new pinglunListener());
 		
 		dianzan = (ImageView)findViewById(R.id.dianzan);
 		dianzan.setOnClickListener(new dianzanListener());
 		
 		dianzant = (TextView)findViewById(R.id.dianzant);
-		dianzant.setOnClickListener(new dianzantListener());
+		dianzant.setOnClickListener(new dianzanListener());
 		
 		collectI = (ImageView)findViewById(R.id.collectI);
 		collectI.setOnClickListener(new collectIListener());
 		
 		collectt = (TextView)findViewById(R.id.collcett);
-		collectt.setOnClickListener(new collecttListener());
+		collectt.setOnClickListener(new collectIListener());
 		
 		xiangguan = (ImageView)findViewById(R.id.xiangguan);
 		xiangguan.setOnClickListener(new xiangguanListener());
 		
 		xiangguant = (TextView)findViewById(R.id.xiangguant);
-		xiangguant.setOnClickListener(new xiangguantListener());
+		xiangguant.setOnClickListener(new xiangguanListener());
 		
 	}
-	
 	class changenameandheadmapListener implements OnClickListener{
 		public void onClick(View v){
 			Intent intent = new Intent();
@@ -95,21 +94,7 @@ public class PersonalblogActivity extends Activity{
 			startActivity(intent);
 		}
 	}
-	class pingluntListener implements OnClickListener{
-		public void onClick(View v){
-			Intent intent = new Intent();
-			intent.setClass(PersonalblogActivity.this,PinglunActivity.class);
-			startActivity(intent);
-		}
-	}
 	class dianzanListener implements OnClickListener{
-		public void onClick(View v){
-			Intent intent = new Intent();
-			intent.setClass(PersonalblogActivity.this,PersonalblogActivity.class);
-			startActivity(intent);
-		}
-	}
-	class dianzantListener implements OnClickListener{
 		public void onClick(View v){
 			Intent intent = new Intent();
 			intent.setClass(PersonalblogActivity.this,PersonalblogActivity.class);
@@ -123,13 +108,6 @@ public class PersonalblogActivity extends Activity{
 			startActivity(intent);
 		}
 	}
-	class collecttListener implements OnClickListener{
-		public void onClick(View v){
-			Intent intent = new Intent();
-			intent.setClass(PersonalblogActivity.this,CollectActivity.class);
-			startActivity(intent);
-		}
-	}
 	class xiangguanListener implements OnClickListener{
 		public void onClick(View v){
 			Intent intent = new Intent();
@@ -137,12 +115,4 @@ public class PersonalblogActivity extends Activity{
 			startActivity(intent);
 		}
 	}
-	class xiangguantListener implements OnClickListener{
-		public void onClick(View v){
-			Intent intent = new Intent();
-			intent.setClass(PersonalblogActivity.this,SpotActivity.class);
-			startActivity(intent);
-		}
-	}
-
 }

@@ -17,53 +17,56 @@
 
     <LinearLayout
         android:layout_width="fill_parent"
-        android:layout_height="80dp"
+        android:layout_height="70dp"
         android:background="#ffffff"
         >
         <ImageView
         	android:id="@+id/blogone"
 			android:layout_width="80dp"
-			android:layout_height="80dp"
+			android:layout_height="70dp"
 			android:src="@drawable/xihu"
 			android:layout_marginLeft="20dp"
 			/>
         <ImageView
         	android:id="@+id/blogtwo"
 			android:layout_width="80dp"
-			android:layout_height="80dp"
+			android:layout_height="70dp"
 			android:src="@drawable/fushishan"
 			android:layout_marginLeft="20dp"
 			/>
         <ImageView
         	android:id="@+id/blogthree"
 			android:layout_width="80dp"
-			android:layout_height="80dp"
+			android:layout_height="70dp"
 			android:src="@drawable/taiwan"
 			android:layout_marginLeft="20dp"
 			/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="fill_parent"
-        android:layout_height="138dp"
+        android:layout_height="170dp"
         android:background="#ffffff"
         >
-        <ImageView 
-            android:id="@+id/map"
+        <EditText 
             android:layout_width="fill_parent"
-        	android:layout_height="138dp"/>
+        	android:layout_height="50dp"
+        	android:cursorVisible="false"
+        	android:editable="false"
+        	android:id="@+id/editText"/>
     </LinearLayout>
     <Button
         android:id="@+id/biaoqian"
         android:layout_width="fill_parent"
-        android:layout_height="40dp"
+        android:layout_height="35dp"
         android:text="确定标签"
+        android:layout_marginTop="3dp"
         android:layout_gravity="center"
         android:background="@drawable/selector_send_bg"
         />
 	<Button
 	    android:id="@+id/Relationteam"
         android:layout_width="fill_parent"
-        android:layout_height="40dp"
+        android:layout_height="35dp"
         android:text="@string/Relationteam"
         android:layout_gravity="center"
         android:background="@drawable/selector_send_bg"
@@ -71,7 +74,7 @@
 	<Button
 	    android:id="@+id/Relationshare"
         android:layout_width="fill_parent"
-        android:layout_height="40dp"
+        android:layout_height="35dp"
         android:text="@string/relationshare"
         android:layout_gravity="center"
         android:background="@drawable/selector_send_bg"
@@ -79,7 +82,7 @@
 	<Button
 	    android:id="@+id/Near"
         android:layout_width="fill_parent"
-        android:layout_height="40dp"
+        android:layout_height="35dp"
         android:text="@string/Near"
         android:layout_gravity="center"
         android:background="@drawable/selector_send_bg"
@@ -88,7 +91,7 @@
 	<Button
 	    android:id="@+id/Back"
 	    android:layout_width="fill_parent"
-	    android:layout_height="40dp"
+	    android:layout_height="35dp"
 	    android:layout_gravity="center"
 	    android:text="@string/back" 
 	    android:background="@drawable/selector_send_bg"
